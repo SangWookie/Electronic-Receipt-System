@@ -27,4 +27,4 @@ jobs:
         with:
           context: ./Server  # Server 디렉토리 내에서 빌드
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/digital_receipt:latest  # 도커 이미지 태그
+          tags: ${{ secrets.DOCKER_USERNAME }}/digital_receipt:latest
